@@ -5,10 +5,13 @@ import App from './App';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.js';
+import { getFireStoreApp } from './config/getFireStoreApp';
+
+getFireStoreApp()
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <App />  
-);
+)
 
 

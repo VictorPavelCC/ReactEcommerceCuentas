@@ -9,14 +9,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/css": "^11.11.0",
+    "@emotion/react": "^11.11.0",
     "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.10.5",
+    "firebase": "^9.22.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "^18.2.0",
     "react-icons": "^4.8.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1",
-    "sass": "^1.62.0"
+    "react-spinners": "^0.13.8",
+    "sass": "^1.62.0",
+    "spinners": "^1.2.2",
+    "sweetalert": "^2.1.2"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
