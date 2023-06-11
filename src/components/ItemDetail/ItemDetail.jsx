@@ -5,6 +5,7 @@ import ItemCount from '../ItemListContainer/ItemCount'
 import './ItemDetail.css'
 
 function ItemDetail({product}) {
+    console.log(product)
 
     const [goToCart, setGoToCart] = useState(false)
 

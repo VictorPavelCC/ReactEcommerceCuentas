@@ -21,8 +21,8 @@ const Footer = () => {
                             <div className="redes__sociales">
                                 <a href="https://www.facebook.com" target="_blank"><FacebookIcon /></a>
                                 <a href="https://www.instagram.com" target="_blank"> <InstagramIcon /> </a>
-                                <a href="https://www.linkedin.com/in/Nahuelz08" target="_blank"> <LinkedinIcon /> </a>
-                                <a href="https://github.com/Nahuelz08" target="_blank"> <GithubIcon /> </a>
+                                <a href="https://www.linkedin.com" target="_blank"> <LinkedinIcon /> </a>
+                                <a href="https://github.com/VictorPavelCC" target="_blank"> <GithubIcon /> </a>
                             </div>
                     </div>
                 </div>

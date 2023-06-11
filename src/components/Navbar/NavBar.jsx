@@ -15,8 +15,8 @@ const NavBar = ({cartCount}) => {
                         <Navbar.Brand>
                             <img
                                 src={logo}
-                                width="100"
-                                height="100"
+                                width="120"
+                                height="60"
                                 className="d-inline-block align-top"
                                 alt="NGGames Logo"
                             />
@@ -37,6 +37,12 @@ const NavBar = ({cartCount}) => {
                             <NavLink className="nav-link" to="/categoria/procesador">
                                 Procesadores
                             </NavLink>
+                            <NavLink className="nav-link" to="/categoria/video">
+                                Placa de Video
+                            </NavLink>
+                            <NavLink className="nav-link" to="/categoria/otros">
+                                Otros
+                            </NavLink>                            
                         </Nav>
                     </Navbar.Collapse>
                     <Link className="cart-desktop" to="/cart">
