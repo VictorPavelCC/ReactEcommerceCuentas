@@ -18,7 +18,7 @@ const NavBar = ({cartCount}) => {
                                 width="120"
                                 height="60"
                                 className="d-inline-block align-top"
-                                alt="NGGames Logo"
+                                alt="MainLogo"
                             />
                         </Navbar.Brand>
                     </Link>
@@ -29,7 +29,7 @@ const NavBar = ({cartCount}) => {
                     <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
                         <Nav className="align-items-center">
                             <NavLink className="nav-link" to="/">
-                                Home
+                                Inicio
                             </NavLink>
                             <NavLink className="nav-link" to="/categoria/motherboard">
                                 motherboards
